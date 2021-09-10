@@ -1,0 +1,53 @@
+
+* { /* most browsers insert padding and margin by default
+    This code forces the removal of extra padding and margins */
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  body {
+    /* more on this crazy alphanumerical value in a minute! */
+    color: #39a6b2;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+
+  header {
+    padding: 20px 35px;
+    background-color: #39a6b2;
+  }
+  header a {
+    text-decoration: none;
+    color: #fce138;
+  }
+
+  header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+  }
+
+  header nav {
+    float: right; \*float the nac to the right*/
+    margin: 7px 0;
+  }
+  
+  header nav ul li {
+    display: inline; \\ force the ordered list onto one line, instead of a bulleted line
+  }
+
+  header nav ul li a {
+      /* put spacing between every nav link so the words are not one long sentance*/
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+  }
+
+  header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+    display: inline;
+  }

@@ -1,94 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-* { /* most browsers insert padding and margin by default
-    This code forces the removal of extra padding and margins */
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box; \\adjust the size of the box to account for padding or margins
-      }
-  
-  body {
-    /* more on this crazy alphanumerical value in a minute! */
-    color: #39a6b2;
-    font-family: Helvetica, Arial, sans-serif;
-  }
+body {
+  /* more on this crazy alphanumerical value in a minute! */
+  color: #39a6b2;
+  font-family: Helvetica, Arial, sans-serif;
+}
 
-  header {
-    padding: 20px 35px;
-    background-color: #39a6b2;
-  }
-  header a {
-    text-decoration: none;
-    color: #fce138;
-  }
+/* apply styles to <header> */
+header {
+  padding: 20px 35px;
+  background-color: #39a6b2;
+}
 
-  header h1 {
-    font-weight: bold;
-    font-size: 36px;
-    color: #fce138;
-    margin: 0;
-  }
+header h1 {
+  font-weight: bold;
+  font-size: 36px;
+  color: #fce138;
+  margin: 0;
+  display: inline;
+}
+header a {
+  text-decoration: none;
+  color: #fce138;
+}
 
-  header nav {
-    float: right; \*float the nac to the right*/
-    margin: 7px 0;
-  }
-  
-  header nav ul li {
-    display: inline; \\ force the ordered list onto one line, instead of a bulleted line
-  }
+header nav {
+  float: right;
+  margin: 7px 0;
+}
 
-  header nav ul li a {
-      /* put spacing between every nav link so the words are not one long sentance*/
-    margin: 0 30px;
-    font-weight: lighter;
-    font-size: 22px;
-  }
+header nav ul li {
+  display: inline;
+}
 
-  header h1 {
-    font-weight: bold;
-    font-size: 36px;
-    color: #fce138;
-    margin: 0;
-    display: inline;
-  }
+header nav ul li a {
+  margin: 0 30px;
+  font-weight: lighter;
+  font-size: 22px;
+}
 
-  footer {
-    background: #fce138;
-    width: 100%;
-    padding: 40px 35px;
-  }
+footer {
+  background: #fce138;
+  width: 100%;
+  padding: 40px 35px;
+}
 
-  footer h2 {
-    display: inline;
-    color: #024e76;
-    font-size: 30px;
-    margin: 0;
-  }
+footer h2 {
+  display: inline;
+  color: #024e76;
+  font-size: 30px;
+  margin: 0;
+}
 
-  footer div {
-    float: right;
-    line-height: 1.5;
-    text-align: right;
-  }
+footer div {
+  float: right;
+  line-height: 1.5;
+  text-align: right;
+}
 
-  footer a {
-    color: #024e76;
-  }
+footer a {
+  color: #024e76;
+}
 
-  section {
-    padding: 60px;
-  }
+section {
+  padding: 60px;
+}
 
-  
+/* Hero Style Start */
 .hero {
-  background-image: url("../images/hero-bg.jpg");
+  background-image: url('../images/hero-bg.jpg');
   height: 600px;
-  background-size: cover; \\ shrink the imge so its not clipped
+  background-size: cover;
   background-position: center;
   position: relative;
-
 }
-/* Hero Style End */
+
 
 .hero-form {
   border: 3px solid #024e76;
@@ -105,7 +95,6 @@
   font-size: 24px;
   margin: 0;
 }
-
 .hero-form p {
   margin: 5px 0 15px 0;
 }
@@ -131,5 +120,4 @@
   padding: 10px 20px;
   font-size: 16px;
 }
-
-/* Hero Style Start */
+/* Hero Style End */

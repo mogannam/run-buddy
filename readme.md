@@ -8,8 +8,9 @@ A fake website that offers fitness training services.
 * CSS
 
 ## Website
-https://github.com/mogannam/run-buddy.git
 git@github.com:mogannam/run-buddy.git
+https://github.com/mogannam/run-buddy.git
+
 
 ## Contribution
 Made with ❤️ by Joe M
